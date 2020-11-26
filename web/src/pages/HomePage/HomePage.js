@@ -1,8 +1,11 @@
 import BlogLayout from "src/layouts/BlogLayout/BlogLayout";
+import BlogPostsCell from 'src/components/BlogPostsCell/BlogPostsCell';
 
 const HomePage = () => {
   return (
-    <BlogLayout>Home</BlogLayout>
+    <BlogLayout>
+      <BlogPostsCell />
+    </BlogLayout>
   )
 }
 
